@@ -29,5 +29,5 @@ USER_AGENT=$'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 
 ffmpeg \
   -headers "$HEADERS" \
   -user_agent "$USER_AGENT" \
-  -i $MANIFEST \
-  $OUT_PATH
+  -i "$MANIFEST" \
+  "$OUT_PATH"
